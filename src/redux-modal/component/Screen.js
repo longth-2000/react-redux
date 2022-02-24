@@ -9,7 +9,7 @@ class Screen extends Component {
         return ( <
             div >
             <
-            button onClick = { this.props.showModal } > show modals < /button> <
+            button onClick = { this.props.showModal } > shows modal < /button> <
             Modal visible = { this.props.modal } >
             <
             ModalScreen / >
