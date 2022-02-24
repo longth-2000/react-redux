@@ -6,14 +6,18 @@ import { Modal, Button } from 'antd';
 
 class Screen extends Component {
     render() {
-        return (
-            <div>
-                <button onClick={this.props.showModal}>show modal</button>
-                <Modal visible={this.props.modal}>
-                    <ModalScreen />
-                </Modal>
+        return ( <
+            div >
+            <
+            button onClick = { this.props.showModal } > show modals < /button> <
+            Modal visible = { this.props.modal } >
+            <
+            ModalScreen / >
+            <
+            /Modal>
 
-            </div>
+            <
+            /div>
         )
     }
 }
