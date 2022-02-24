@@ -8,8 +8,7 @@ class App extends Component {
         return ( <
             div className = "App" >
             <
-            Screensss / >
-            <
+            Screens / >
             /div>
         );
     }
